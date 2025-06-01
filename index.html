@@ -1,81 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Web Design Mastery | Digital Agency Portfolio Page</title>
-  </head>
-  <body>
-    <nav>
-      <div class="nav__logo">Meccem</div>
-      <ul class="nav__links">
-        <li class="link"><a href="#">About</a></li>
-        <li class="link"><a href="#">Case Studies</a></li>
-        <li class="link"><a href="#">News</a></li>
-        <li class="link"><a href="#" class="contact__btn">Contact</a></li>
-      </ul>
-    </nav>
-    <header>
-      <div class="header__container">
-        <div class="header__content">
-          <h1>
-            We are a fully<br />integrated <span>digital<br />agency.</span>
-          </h1>
-          <a href="#" class="start__project">Start a project</a>
+<head>
+  <meta charset="UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="styles.css"/>
+  <title>Douglas Queiroz | Full-Stack Freelancer</title>
+</head>
+<body>
+<nav>
+  <div class="nav__logo">Douglas Queiroz</div>
+  <ul class="nav__links">
+    <li class="link"><a href="#home">Home</a></li>
+    <li class="link"><a href="#about">About</a></li>
+    <li class="link"><a href="#services">Services</a></li>
+    <li class="link"><a href="#contact" class="contact__btn">Contact</a></li>
+  </ul>
+</nav>
+<header id="home">
+  <div class="header__container">
+    <div class="header__content">
+      <h1>
+        Full-Stack <span>Development &<br/>Automation</span> Solutions
+      </h1>
+      <p>Crafting robust, scalable, and user-friendly digital experiences for your business.</p>
+      <a href="#contact" class="start__project" aria-label="Start a Project">Start a Project</a>
+    </div>
+  </div>
+</header>
+<main>
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <div class="about__content">
+        <div class="about__text">
+          <p>
+            I’m a 16-year-old full-stack developer passionate about creating efficient solutions. My expertise includes
+            backend development with TypeScript (Node.js, Express) and PHP (Laravel, WordPress), frontend with
+            JavaScript
+            (React), and automation with Python.
+          </p>
+          <p>
+            As a freelancer, I deliver high-quality, budget-friendly projects using free tools like Supabase, Vercel,
+            and
+            GitHub. My goal is to help businesses succeed online with tailored digital solutions.
+          </p>
         </div>
-        <div class="footer__cards">
-          <div class="card">
-            <h4>01</h4>
-            <h5>User Research</h5>
-            <p>
-              The process of gathering feedback from users to inform the design
-              and development of products.
-            </p>
-          </div>
-          <div class="card">
-            <h4>02</h4>
-            <h5>User Experience</h5>
-            <p>
-              It refers to the overall experience and satisfaction that a person
-              has while interacting with a product.
-            </p>
-          </div>
-          <div class="card">
-            <h4>03</h4>
-            <h5>User Interface</h5>
-            <p>
-              It refers to the design of software products to enable users to
-              interact with them in an intuitive manner.
-            </p>
-          </div>
-          <div class="card">
-            <h4>04</h4>
-            <h5>Usability Testing</h5>
-            <p>
-              A process of evaluating a product or service by testing it with
-              representative users.
-            </p>
-          </div>
-          <div class="card">
-            <h4>05</h4>
-            <h5>Interaction Design</h5>
-            <p>
-              The process of creating digital products that are user-friendly,
-              intuitive, and enjoyable to use.
-            </p>
-          </div>
-          <div class="card">
-            <h4>06</h4>
-            <h5>Front-end Dev</h5>
-            <p>
-              Involves designing the visual and interactive elements of a
-              website that users interact with.
-            </p>
-          </div>
+        <div class="about__image">
+          <img src="assets/about.jpg" alt="Programming"/>
         </div>
       </div>
-    </header>
-  </body>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="container">
+      <h2>Services</h2>
+      <div class="services__cards">
+        <div class="card">
+          <h4>01</h4>
+          <h5>Backend Development</h5>
+          <p>Building robust APIs and server-side logic with TypeScript (Node.js, Express) and PHP (Laravel).</p>
+        </div>
+        <div class="card">
+          <h4>02</h4>
+          <h5>Frontend Development</h5>
+          <p>Creating dynamic, responsive interfaces with JavaScript and React for seamless user experiences.</p>
+        </div>
+        <div class="card">
+          <h4>03</h4>
+          <h5>WordPress Solutions</h5>
+          <p>Developing custom themes and plugins with PHP for tailored WordPress websites.</p>
+        </div>
+        <div class="card">
+          <h4>04</h4>
+          <h5>Automation</h5>
+          <p>Streamlining workflows with Python scripts for data processing and task automation.</p>
+        </div>
+        <div class="card">
+          <h4>05</h4>
+          <h5>API Integration</h5>
+          <p>Connecting systems with secure, scalable APIs using Supabase and other free tools.</p>
+        </div>
+        <div class="card">
+          <h4>06</h4>
+          <h5>Technical Documentation</h5>
+          <p>Writing clear, professional documentation for APIs and projects using Markdown.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>Ready to bring your ideas to life? Let’s collaborate!</p>
+      <div class="contact__actions">
+        <a href="https://wa.me/5599999999999" target="_blank" class="btn" aria-label="Contact via WhatsApp">WhatsApp</a>
+        <a href="mailto:dev.queiroz05@gmail.com" class="btn" aria-label="Contact via Email">Email</a>
+      </div>
+      <div class="social-links">
+        <a href="https://github.com/yourusername" target="_blank" class="social-icon" aria-label="GitHub Profile">
+          <img src="assets/github-icon.png" alt="GitHub"/>
+        </a>
+        <a href="https://linkedin.com/in/yourusername" target="_blank" class="social-icon"
+           aria-label="LinkedIn Profile">
+          <img src="assets/linkedin-icon.png" alt="LinkedIn"/>
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="container">
+    <p>© 2025 Douglas Queiroz | Crafted with Passion</p>
+    <div class="footer__links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
 </html>
