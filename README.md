@@ -35,7 +35,7 @@ Este portfólio apresenta minhas habilidades como freelancer full-stack, com foc
 ## Deployment
 
 - Hosted on Github Pages for free, fast deployment. See in:
-    - [Creative Agency](https://dev-queiroz.github.io/Digital-Agency-Portfolio/)
+    - [Creative Agency](https://dev-queiroz.github.io/Digital-Agency-Portfolio /)
 
 ### Steps
 
