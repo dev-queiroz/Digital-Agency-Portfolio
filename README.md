@@ -1,33 +1,37 @@
 # Digital Agency Portfolio
 
-## Visão Geral
+## Overview
 
-Este portfólio apresenta minhas habilidades como freelancer full-stack, com foco em soluções digitais robustas e modernas para clientes que buscam excelência e inovação. O site possui design responsivo, animações elegantes, navegação fluida e integração com redes profissionais.
+This portfolio showcases my skills as a full-stack freelancer, focused on robust and modern digital solutions for
+clients seeking excellence and innovation. The website has a responsive design, elegant animations, fluid navigation and
+integration with professional networks.
 
-## Funcionalidades
+## Features
 
-- **Design Responsivo:** Adaptação perfeita para dispositivos móveis e desktop.
-- **Cartões de Serviços Animados:** Animações ao rolar a página e destaque ao clicar.
-- **Navegação Suave:** Links âncora com rolagem suave para melhor experiência do usuário.
-- **Integração Social:** Links para GitHub e LinkedIn.
-- **Acessibilidade:** HTML semântico e ARIA labels para compatibilidade com leitores de tela.
+- **Responsive Design:** Perfect adaptation for mobile and desktop devices.
+- **Animated Service Cards:** Animations when scrolling the page and highlighting on click.
+- **Smooth Navigation:** Anchor links with smooth scrolling for a better user experience.
+- **Social Integration:** Links to GitHub and LinkedIn.
+- **Accessibility:** Semantic HTML and ARIA labels for compatibility with screen readers.
 
-## Tecnologias Utilizadas
+## Technologies Used
 
-- **HTML5:** Estrutura semântica para acessibilidade e SEO.
-- **CSS3:** Variáveis customizadas, animações e design responsivo.
-- **JavaScript:** Rolagem suave e animações com IntersectionObserver.
-- **Google Fonts:** Fonte Poppins para visual profissional.
-- **Ferramentas:** WebStorm, Vercel (deploy), GitHub (controle de versão).
+- **HTML5:** Semantic framework for accessibility and SEO.
+- **CSS3:** Custom variables, animations and responsive design. - **JavaScript:** Smooth scrolling and animations with
+  IntersectionObserver.
+- **Google Fonts:** Poppins font for professional look.
+- **Tools:** WebStorm, Vercel (deploy), GitHub (version control).
 
-## Como Rodar Localmente
+## How to Run Locally
 
-1. Clone o repositório:
-   ```sh
-   git clone <seu-repo-url>
-   ```
-2. Coloque os arquivos de imagem (`bg.jpg`, `about.jpg`, `github-icon.png`, `linkedin-icon.png`) na pasta `assets/`. 
-3. Abra o arquivo `index.html` no navegador ou utilize um servidor local:
+1. Clone the repository:
+    ```sh
+    git clone <https://github.com/dev-queiroz/Digital-Agency-Portfolio.git>
+    ```
+
+2. Place the image files (`bg.jpg`, `about.jpg`, `github-icon.png`, `linkedin-icon.png`) in the `assets/` folder.
+
+3. Open the `index.html` file in the browser or use a local server:
     ```sh
     npx serve
     ```
@@ -35,7 +39,7 @@ Este portfólio apresenta minhas habilidades como freelancer full-stack, com foc
 ## Deployment
 
 - Hosted on Github Pages for free, fast deployment. See in:
-    - [Creative Agency](https://dev-queiroz.github.io/Digital-Agency-Portfolio /)
+  - [Creative Agency](https://dev-queiroz.github.io/Digital-Agency-Portfolio/)
 
 ### Steps
 
@@ -43,7 +47,7 @@ Este portfólio apresenta minhas habilidades como freelancer full-stack, com foc
 2. Connect the repository to Vercel via the dashboard.
 3. Deploy and share the live URL with clients.
 
-## Contact
+##Contact
 
 For freelance opportunities, contact me via:
 
